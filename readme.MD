@@ -1,4 +1,8 @@
-Users Collection:
+# PROJECT TITLE
+
+## heading 2
+
+### Users Collection:
 
 Fields:
 1.1 _id: Unique identifier for the user.
@@ -7,7 +11,7 @@ Fields:
 1.4 password: Encrypted password for user authentication.
 1.5 profile: Embedded document containing additional user profile information such as name, bio, avatar, etc.
 
-Courses Collection:
+### Courses Collection:
 
 Fields:
 2.1 _id: Unique identifier for the course.
@@ -16,17 +20,16 @@ Fields:
 2.4 instructors: Array of instructor IDs who teach the course.
 2.5 modules: Array of embedded documents representing course modules, including lecture details, quizzes, assignments, etc.
 
-Assessments Collection:
+### Assessments Collection:
 
 Fields:
-
 3.1 _id: Unique identifier for the assessment.
 3.2 course_id: ID of the course associated with the assessment.
 3.3 title: Title of the assessment.
 3.4 type: Type of assessment (quiz, exam, assignment, etc.).
 3.5 questions: Array of embedded documents representing assessment questions, including question text, options, correct answer(s), etc.
 
-Enrollments Collection:
+### Enrollments Collection:
 
 Fields:
 4.1 _id: Unique identifier for the enrollment.
@@ -35,7 +38,7 @@ Fields:
 4.4 enrollment_date: Date when the user enrolled in the course.
 4.5 progress: Embedded document tracking the user's progress within the course, including completed modules, assessments, etc.
 
-Reviews Collection:
+### Reviews Collection:
 
 Fields:
 5.1 _id: Unique identifier for the review.
